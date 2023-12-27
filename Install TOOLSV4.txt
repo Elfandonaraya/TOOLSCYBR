@@ -1,0 +1,9 @@
+pkg update && pkg upgrade --y
+pkg install git bash -y
+git clone https://github.com/Galirus404/TOOLSV4
+cd TOOLSV4
+bash install.sh
+====================================
+jangan lupa kunjungi channel saya Galirus Official
+semoga script ini bisa membantu kalian dan mempermudah !
+dan Saya melarang keras menjual beli kan TOOLSV4 ini
