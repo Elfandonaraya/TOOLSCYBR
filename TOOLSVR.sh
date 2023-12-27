@@ -1,0 +1,16 @@
+#!/usr/bin/sh
+
+echo $green"selamat datang di (TOOLSVR)"
+echo $blue"silahkan di coba"
+echo $yellow"(1) : install wget"
+echo $yellow"(3) : keluar"
+read -p "pilih aja slur: " pil
+if [ $pil = "1" ]
+then
+  pkg install wget
+elif [$pil = "2" ]
+then
+  echo "keluar"
+else
+  echo "input salah !!!"
+fi
